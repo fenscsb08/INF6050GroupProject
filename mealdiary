@@ -12,7 +12,7 @@
 
 
 # Collect Gender, Age, Weight, Height
-# Covert height to inches
+# Convert height to inches
 # Use Harris-Benedict Formula to calcuate calore intake
 # http://www.healthfitonline.com/resources/harris_benedict.php
 # Calculate BMR
