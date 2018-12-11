@@ -18,6 +18,8 @@ if Gender == "2":
     (6.8 * float(Height))
     calorieIntake2 = bmrMale * activityLevel
     print(calorieIntake2)      
+ if Gender == "3": 
+    ### working on doing the average.                  
 
 Age = input("Enter your age numberically: ")
 # Error control make sure a number is entered
