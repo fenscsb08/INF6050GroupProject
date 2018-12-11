@@ -8,12 +8,12 @@ Created on Sun Dec  2 20:50:01 2018
 print("Let's start by getting to know you a little bit.")
 
 Gender = input("Please select one: M/F or type N for nonbinary ")
-str.capitalize("n", "m", "f")
+str.capitalize("n", "m", "f")     ### Am I using capitilize correctly? I get an error when I run.
 if Gender == "1":
     bmrFemale = (655.0 + (4.35 * float(Weight)) + (4.7 * float(Height)) - 
     +(4.7 * float(Age))
-    calorieIntake1 = bmrFemale * activityLevel
-    print(calorieIntake1)
+    calorieIntake1 = bmrFemale * activityLevel  ### I'm getting an invalid syntax error around here. I'm sure it's 
+    print(calorieIntake1)                       ### something obvious, I'm just not sure what to change.
 if Gender == "2":
     bmrMale = 66 + (6.23 * float(Weight)) + (12.7 * float(Height)) - 
     (6.8 * float(Height))
