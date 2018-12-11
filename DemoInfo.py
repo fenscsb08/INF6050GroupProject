@@ -8,7 +8,6 @@ Created on Sun Dec  2 20:50:01 2018
 print("Let's start by getting to know you a little bit.")
 
 Gender = input("Please select one: Male: 1, Female: 2. Nonbinary: 3 ")
-str.capitalize("n", "m", "f")     ### Am I using capitilize correctly? I get an error when I run.
 if Gender == "1":
     bmrFemale = (655.0 + (4.35 * float(Weight)) + (4.7 * float(Height)) - 
     +(4.7 * float(Age))
